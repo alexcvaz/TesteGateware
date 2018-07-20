@@ -29,8 +29,8 @@ namespace TesteGateware
 
                         break;
                     case "3":
-                        largestNumber = new LargestNumber();
-                        largestNumber.Iniciar();
+                        var copyImages = new CopyImages();
+                        copyImages.Iniciar();
                         break;
                     case "0":
                         Console.WriteLine("Sair");
